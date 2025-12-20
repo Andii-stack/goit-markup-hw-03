@@ -66,9 +66,14 @@ img {
   color: #4d5ae5;
 }
 
-.header-logo {
+/* .header-logo {
   padding: 24px 0;
   margin-right: 76px;
+} */
+
+.logo-part {
+  margin-right: 76px;
+  padding: 24px 0;
 }
 
 .header-logo .logo-part {
@@ -132,7 +137,7 @@ img {
   margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -141,6 +146,7 @@ img {
 .button {
   min-width: 169px;
   height: 56px;
+  padding: 16px 32px;
   border: none;
   border-radius: 4px;
   background: #4d5ae5;
@@ -202,14 +208,11 @@ img {
 
 .work-container {
   background-color: #f4f4fd;
-}
-
-.work {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .work-title {
-  padding-top: 120px;
   padding-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
@@ -258,12 +261,10 @@ img {
 }
 
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background: #fff;
   color: #434455;
-}
-
-.portfolio-container {
-  padding-bottom: 120px;
 }
 
 .portfolio-list {
@@ -313,7 +314,6 @@ img {
 
 .footer-logo .logo-part {
   display: inline-block;
-  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
